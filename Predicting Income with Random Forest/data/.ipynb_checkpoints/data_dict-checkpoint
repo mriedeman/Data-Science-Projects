@@ -1,0 +1,16 @@
+|                | 0                                                                                                          |
+|:---------------|:-----------------------------------------------------------------------------------------------------------|
+| age            | The age of the person sampled                                                                              |
+| workclass      | Evaluates the quality of the material on the exterior(Ordinal)                                             |
+| fnlwgt         | The weighted tally indicated likeness in socio-economic and demographic statistics.                        |
+| education      | The highest level of education the person sampled achieved.(categorical)                                   |
+| education-num  | The highest level of education the person sampled achieved, ranked on a numbered scale (oridnal)           |
+| marital-status | The marital status of the person sampled                                                                   |
+| occupation     | The job sector the person sampled works                                                                    |
+| relationship   | The relationship of the person sampled to the data given in the sample.                                    |
+| sex            | The gender of the person sampled                                                                           |
+| capital-gain   | Capital gains for the person sampled in dollars                                                            |
+| capital-loss   | Capital losses for the person sampled in dollars                                                           |
+| hours-per-week | The average hours per week the person sampled works                                                        |
+| native-country | The country of origin for the person sampled                                                               |
+| wage           | Binary outcome indicating whether the annual income for the person sampled was above or below 50k dollars. |

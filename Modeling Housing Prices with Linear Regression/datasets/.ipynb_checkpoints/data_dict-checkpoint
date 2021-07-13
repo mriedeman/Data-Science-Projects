@@ -1,0 +1,12 @@
+|               | 0                                                              |
+|:--------------|:---------------------------------------------------------------|
+| Overall Qual  | Rates the overall material and finish of the house (Ordinal)   |
+| Exter Qual    | Evaluates the quality of the material on the exterior(Ordinal) |
+| Gr Liv Area   | Above grade froundliving area in square feet (Continuous)      |
+| Kitchen Qual  | Kitchen Quality (Ordinal)                                      |
+| Garage Area   | Size of garage in square feet (Continuous)                     |
+| Garage Cars   | Size of garage in car capacity (discrete)                      |
+| Total Bsmt SF | Total square feet of basement area (Continuous)                |
+| 1st Flr SF    | First Floor square feet (Continuous)                           |
+| Bsmt Qual     | Evaluates the height of the basement (Ordinal)                 |
+| Garage Finish | Interior finish of the garage (Ordinal)                        |

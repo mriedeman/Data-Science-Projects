@@ -1,0 +1,7 @@
+|                                    | 0                                                                                                                              |
+|:-----------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
+| State                              | US State                                                                                                                       |
+| Participation                      | The percent of high school students that took the SAT.                                                                         |
+| Evidence-Based_Reading_and_Writing | The sum of the scores for the reading and writing sections of the SAT. The sum of the two sections are scored between 400-1600 |
+| Math                               | The score representing the Math section on the SAT. Scores can range from 200-800                                              |
+| Total                              | The sum of the Evidence-Based_Reading_and_Writing and Math scores.                                                             |
