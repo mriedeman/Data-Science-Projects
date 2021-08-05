@@ -1,0 +1,655 @@
+0
+"   pitch_type   game_date  release_speed  release_pos_x  release_pos_z  \
+0          CU  2021-06-07           84.8          -2.53           5.52   
+1          FF  2021-06-07           92.4          -2.46           5.47   
+2          FF  2021-06-07           92.7          -2.39           5.25   
+3          FF  2021-06-07           93.2          -2.55           5.41   
+4          CH  2021-06-07           87.6          -2.31           5.58   
+..        ...         ...            ...            ...            ...   
+71         FF  2021-06-05           93.2          -2.27           5.68   
+72         FF  2021-06-05           93.6          -2.35           5.62   
+73         FF  2021-06-05           92.9          -2.23           5.69   
+74         FF  2021-06-05           93.3          -2.14           5.55   
+75         FF  2021-06-05           93.8          -2.44           5.66   
+
+     player_name  batter  pitcher     events    description  ...  fld_score  \
+0   Abbott, Cory  605170   676265  strikeout  called_strike  ...          4   
+1   Abbott, Cory  605170   676265        NaN           foul  ...          4   
+2   Abbott, Cory  605170   676265        NaN           ball  ...          4   
+3   Abbott, Cory  605170   676265        NaN           foul  ...          4   
+4   Abbott, Cory  605170   676265        NaN           ball  ...          4   
+..           ...     ...      ...        ...            ...  ...        ...   
+71  Abbott, Cory  644433   676265     single  hit_into_play  ...          2   
+72  Abbott, Cory  644433   676265        NaN  called_strike  ...          2   
+73  Abbott, Cory  644433   676265        NaN           ball  ...          2   
+74  Abbott, Cory  644433   676265        NaN           ball  ...          2   
+75  Abbott, Cory  644433   676265        NaN           ball  ...          2   
+
+    post_away_score  post_home_score  post_bat_score  post_fld_score  \
+0                 4                9               9               4   
+1                 4                9               9               4   
+2                 4                9               9               4   
+3                 4                9               9               4   
+4                 4                9               9               4   
+..              ...              ...             ...             ...   
+71                2                4               4               2   
+72                2                4               4               2   
+73                2                4               4               2   
+74                2                4               4               2   
+75                2                4               4               2   
+
+   if_fielding_alignment of_fielding_alignment spin_axis delta_home_win_exp  \
+0          Infield shift              Standard        18              0.000   
+1          Infield shift              Standard       214              0.000   
+2          Infield shift              Standard       219              0.000   
+3          Infield shift              Standard       214              0.000   
+4          Infield shift              Standard       237              0.000   
+..                   ...                   ...       ...                ...   
+71              Standard              Standard       213              0.019   
+72              Standard              Standard       215              0.000   
+73              Standard              Standard       217              0.000   
+74              Standard              Standard       214              0.000   
+75              Standard              Standard       215              0.000   
+
+   delta_run_exp  
+0         -0.274  
+1         -0.073  
+2          0.049  
+3         -0.053  
+4          0.021  
+..           ...  
+71         0.245  
+72        -0.076  
+73         0.129  
+74         0.070  
+75         0.040  
+
+[76 rows x 92 columns]"
+"    pitch_type   game_date  release_speed  release_pos_x  release_pos_z  \
+0           SL  2021-05-29           82.7          -2.35           5.80   
+1           SL  2021-05-29           84.2          -2.36           5.89   
+2           SL  2021-05-29           85.3          -2.63           5.86   
+3           SL  2021-05-29           83.9          -2.43           5.87   
+4           SI  2021-05-29           95.9          -2.29           5.82   
+..         ...         ...            ...            ...            ...   
+165         CH  2020-08-08           86.1          -2.60           5.63   
+166         CH  2020-08-08           86.1          -2.51           5.68   
+167         CH  2020-08-08           86.5          -2.48           5.63   
+168         CU  2020-08-08           82.4          -2.65           5.80   
+169         FF  2020-08-08           97.2          -2.66           5.48   
+
+       player_name  batter  pitcher     events    description  ...  fld_score  \
+0    Abreu, Albert  606992   656061  strikeout  called_strike  ...          1   
+1    Abreu, Albert  606992   656061        NaN           foul  ...          1   
+2    Abreu, Albert  606992   656061        NaN   blocked_ball  ...          1   
+3    Abreu, Albert  606992   656061        NaN  called_strike  ...          1   
+4    Abreu, Albert  606992   656061        NaN  called_strike  ...          1   
+..             ...     ...      ...        ...            ...  ...        ...   
+165  Abreu, Albert  596847   656061     single  hit_into_play  ...          1   
+166  Abreu, Albert  596847   656061        NaN           ball  ...          1   
+167  Abreu, Albert  596847   656061        NaN           foul  ...          1   
+168  Abreu, Albert  596847   656061        NaN           ball  ...          1   
+169  Abreu, Albert  596847   656061        NaN  called_strike  ...          1   
+
+     post_away_score  post_home_score  post_bat_score  post_fld_score  \
+0                  1                6               6               1   
+1                  1                6               6               1   
+2                  1                6               6               1   
+3                  1                6               6               1   
+4                  1                6               6               1   
+..               ...              ...             ...             ...   
+165                1                3               3               1   
+166                1                3               3               1   
+167                1                3               3               1   
+168                1                3               3               1   
+169                1                3               3               1   
+
+    if_fielding_alignment of_fielding_alignment spin_axis delta_home_win_exp  \
+0                Standard              Standard        92              0.000   
+1                Standard              Standard        90              0.000   
+2                Standard              Standard       146              0.000   
+3                Standard              Standard       143              0.000   
+4                Standard              Standard       221              0.000   
+..                    ...                   ...       ...                ...   
+165         Infield shift              Standard       246              0.015   
+166         Infield shift              Standard       252              0.000   
+167         Infield shift              Standard       253              0.000   
+168              Standard              Standard        30              0.000   
+169              Standard              Standard       233              0.000   
+
+    delta_run_exp  
+0          -0.150  
+1           0.000  
+2           0.019  
+3          -0.050  
+4          -0.042  
+..            ...  
+165         0.432  
+166         0.035  
+167        -0.060  
+168         0.032  
+169        -0.042  
+
+[170 rows x 92 columns]"
+"    pitch_type   game_date  release_speed  release_pos_x  release_pos_z  \
+0           CU  2021-05-26           88.1          -2.03           5.60   
+1           SL  2021-05-26           87.8          -2.02           5.72   
+2           SL  2021-05-26           87.9          -2.08           5.75   
+3           CU  2021-05-26           84.2          -1.55           6.20   
+4           SL  2021-05-26           88.6          -1.99           5.83   
+..         ...         ...            ...            ...            ...   
+695         CU  2019-07-31           84.8          -1.77           6.37   
+696         FF  2019-07-31           95.5          -1.71           6.21   
+697         CU  2019-07-31           83.8          -1.93           6.28   
+698         CU  2019-07-31           84.0          -1.79           6.35   
+699         FF  2019-07-31           95.8          -1.74           6.17   
+
+      player_name  batter  pitcher     events      description  ...  \
+0    Abreu, Bryan  405395   650556  strikeout  swinging_strike  ...   
+1    Abreu, Bryan  405395   650556        NaN             foul  ...   
+2    Abreu, Bryan  405395   650556        NaN    called_strike  ...   
+3    Abreu, Bryan  405395   650556        NaN             ball  ...   
+4    Abreu, Bryan  405395   650556        NaN     blocked_ball  ...   
+..            ...     ...      ...        ...              ...  ...   
+695  Abreu, Bryan  596019   650556  field_out    hit_into_play  ...   
+696  Abreu, Bryan  596019   650556        NaN             foul  ...   
+697  Abreu, Bryan  596019   650556        NaN             ball  ...   
+698  Abreu, Bryan  596019   650556        NaN             ball  ...   
+699  Abreu, Bryan  596019   650556        NaN    called_strike  ...   
+
+     fld_score  post_away_score  post_home_score  post_bat_score  \
+0            5                2                5               2   
+1            5                2                5               2   
+2            5                2                5               2   
+3            5                2                5               2   
+4            5                2                5               2   
+..         ...              ...              ...             ...   
+695          4                4               10              10   
+696          4                4               10              10   
+697          4                4               10              10   
+698          4                4               10              10   
+699          4                4               10              10   
+
+     post_fld_score if_fielding_alignment of_fielding_alignment spin_axis  \
+0                 5             Strategic              Standard        35   
+1                 5             Strategic              Standard        49   
+2                 5             Strategic              Standard        42   
+3                 5             Strategic              Standard        35   
+4                 5             Strategic              Standard        24   
+..              ...                   ...                   ...       ...   
+695               4         Infield shift              Standard        25   
+696               4         Infield shift              Standard       199   
+697               4         Infield shift              Standard        34   
+698               4         Infield shift              Standard        23   
+699               4         Infield shift              Standard       211   
+
+    delta_home_win_exp delta_run_exp  
+0                0.032        -0.381  
+1                0.000        -0.135  
+2                0.000        -0.071  
+3                0.000         0.088  
+4                0.000         0.048  
+..                 ...           ...  
+695              0.000        -0.217  
+696              0.000        -0.073  
+697              0.000         0.054  
+698              0.000         0.027  
+699              0.000        -0.039  
+
+[700 rows x 92 columns]"
+"Empty DataFrame
+Columns: [pitch_type, game_date, release_speed, release_pos_x, release_pos_z, player_name, batter, pitcher, events, description, spin_dir, spin_rate_deprecated, break_angle_deprecated, break_length_deprecated, zone, des, game_type, stand, p_throws, home_team, away_team, type, hit_location, bb_type, balls, strikes, game_year, pfx_x, pfx_z, plate_x, plate_z, on_3b, on_2b, on_1b, outs_when_up, inning, inning_topbot, hc_x, hc_y, tfs_deprecated, tfs_zulu_deprecated, fielder_2, umpire, sv_id, vx0, vy0, vz0, ax, ay, az, sz_top, sz_bot, hit_distance_sc, launch_speed, launch_angle, effective_speed, release_spin_rate, release_extension, game_pk, pitcher.1, fielder_2.1, fielder_3, fielder_4, fielder_5, fielder_6, fielder_7, fielder_8, fielder_9, release_pos_y, estimated_ba_using_speedangle, estimated_woba_using_speedangle, woba_value, woba_denom, babip_value, iso_value, launch_speed_angle, at_bat_number, pitch_number, pitch_name, home_score, away_score, bat_score, fld_score, post_away_score, post_home_score, post_bat_score, post_fld_score, if_fielding_alignment, of_fielding_alignment, spin_axis, delta_home_win_exp, delta_run_exp]
+Index: []
+
+[0 rows x 92 columns]"
+"     pitch_type   game_date  release_speed  release_pos_x  release_pos_z  \
+0            SL  2021-05-09           83.0          -1.62           5.96   
+1            SL  2021-05-09           83.0          -1.79           5.88   
+2            KC  2021-05-09           78.7          -1.59           6.23   
+3            KC  2021-05-09           79.1          -1.39           6.27   
+4            KC  2021-05-09           78.8          -1.47           6.20   
+...         ...         ...            ...            ...            ...   
+1397         FF  2018-05-05           95.6          -3.04           5.81   
+1398         FF  2018-05-05           94.3          -3.01           5.77   
+1399         FF  2018-05-05           95.6          -3.05           5.67   
+1400         FF  2018-05-05           95.7          -3.06           5.80   
+1401         FF  2018-05-05           96.0          -3.07           5.74   
+
+      player_name  batter  pitcher     events      description  ...  \
+0     Adam, Jason  594694   592094  strikeout  swinging_strike  ...   
+1     Adam, Jason  594694   592094        NaN  swinging_strike  ...   
+2     Adam, Jason  594694   592094        NaN     blocked_ball  ...   
+3     Adam, Jason  594694   592094        NaN             ball  ...   
+4     Adam, Jason  594694   592094        NaN  swinging_strike  ...   
+...           ...     ...      ...        ...              ...  ...   
+1397  Adam, Jason  547982   592094       walk             ball  ...   
+1398  Adam, Jason  547982   592094        NaN    called_strike  ...   
+1399  Adam, Jason  547982   592094        NaN             ball  ...   
+1400  Adam, Jason  547982   592094        NaN             ball  ...   
+1401  Adam, Jason  547982   592094        NaN             ball  ...   
+
+      fld_score  post_away_score  post_home_score  post_bat_score  \
+0             2                6                2               6   
+1             2                6                2               6   
+2             2                6                2               6   
+3             2                6                2               6   
+4             2                6                2               6   
+...         ...              ...              ...             ...   
+1397          1                3                1               3   
+1398          1                3                1               3   
+1399          1                3                1               3   
+1400          1                3                1               3   
+1401          1                3                1               3   
+
+      post_fld_score if_fielding_alignment of_fielding_alignment spin_axis  \
+0                  2              Standard              Standard      51.0   
+1                  2              Standard              Standard       NaN   
+2                  2              Standard              Standard      28.0   
+3                  2              Standard              Standard      39.0   
+4                  2              Standard              Standard      42.0   
+...              ...                   ...                   ...       ...   
+1397               1              Standard              Standard     202.0   
+1398               1              Standard              Standard     199.0   
+1399               1              Standard              Standard     198.0   
+1400               1              Standard              Standard     201.0   
+1401               1              Standard              Standard     207.0   
+
+     delta_home_win_exp delta_run_exp  
+0                 0.003        -0.409  
+1                 0.000        -0.130  
+2                 0.000         0.021  
+3                 0.000         0.100  
+4                 0.000        -0.147  
+...                 ...           ...  
+1397             -0.011         0.239  
+1398              0.000        -0.073  
+1399              0.000         0.126  
+1400              0.000         0.064  
+1401              0.000         0.036  
+
+[1402 rows x 92 columns]"
+"     pitch_type   game_date  release_speed  release_pos_x  release_pos_z  \
+0            SL  2021-06-15           84.5          -3.12           5.39   
+1            SL  2021-06-15           85.7          -3.31           5.34   
+2            SL  2021-06-15           84.3          -3.08           5.49   
+3            FF  2021-06-15           92.8          -3.36           5.39   
+4            FF  2021-06-15           93.3          -3.25           5.64   
+...         ...         ...            ...            ...            ...   
+1072         SL  2018-04-25           88.5          -3.22           5.23   
+1073         FF  2018-04-25           95.0          -3.14           5.61   
+1074         FF  2018-04-25           96.1          -3.31           5.61   
+1075         FF  2018-04-25           93.7          -3.23           5.57   
+1076         FF  2018-04-25           94.8          -3.13           5.55   
+
+        player_name  batter  pitcher     events      description  ...  \
+0     Adams, Austin  663898   613534  strikeout  swinging_strike  ...   
+1     Adams, Austin  663898   613534        NaN             foul  ...   
+2     Adams, Austin  663898   613534        NaN    called_strike  ...   
+3     Adams, Austin  663898   613534        NaN             ball  ...   
+4     Adams, Austin  663898   613534        NaN    called_strike  ...   
+...             ...     ...      ...        ...              ...  ...   
+1072  Adams, Austin  467055   613534        NaN     blocked_ball  ...   
+1073  Adams, Austin  467055   613534        NaN    called_strike  ...   
+1074  Adams, Austin  474832   613534     single    hit_into_play  ...   
+1075  Adams, Austin  491676   613534  field_out    hit_into_play  ...   
+1076  Adams, Austin  491676   613534        NaN             ball  ...   
+
+      fld_score  post_away_score  post_home_score  post_bat_score  \
+0             4                4                6               6   
+1             4                4                6               6   
+2             4                4                6               6   
+3             4                4                6               6   
+4             4                4                6               6   
+...         ...              ...              ...             ...   
+1072         15               15                2               2   
+1073         15               15                2               2   
+1074         15               15                2               2   
+1075         15               15                2               2   
+1076         15               15                2               2   
+
+      post_fld_score if_fielding_alignment of_fielding_alignment spin_axis  \
+0                  4              Standard              Standard      53.0   
+1                  4              Standard              Standard      48.0   
+2                  4              Standard              Standard      57.0   
+3                  4              Standard              Standard     229.0   
+4                  4              Standard              Standard     234.0   
+...              ...                   ...                   ...       ...   
+1072              15              Standard             Strategic      47.0   
+1073              15              Standard             Strategic     197.0   
+1074              15         Infield shift              Standard     213.0   
+1075              15              Standard              Standard     194.0   
+1076              15              Standard              Standard     192.0   
+
+     delta_home_win_exp delta_run_exp  
+0                 -0.02        -0.287  
+1                  0.00         0.000  
+2                  0.00        -0.128  
+3                  0.00         0.041  
+4                  0.00        -0.077  
+...                 ...           ...  
+1072               0.00         0.028  
+1073               0.00        -0.047  
+1074               0.00         0.256  
+1075               0.00        -0.267  
+1076               0.00         0.036  
+
+[1077 rows x 92 columns]"
+"    pitch_type   game_date  release_speed  release_pos_x  release_pos_z  \
+0           FF  2021-06-11           89.6           2.32           5.84   
+1           FF  2021-06-11           89.4           2.50           5.81   
+2           CH  2021-06-11           78.0           2.50           5.59   
+3           FF  2021-06-11           89.3           2.43           5.80   
+4           FF  2021-06-11           90.7           2.41           5.85   
+..         ...         ...            ...            ...            ...   
+953         FF  2020-08-14           93.5           2.56           5.93   
+954         FF  2020-08-14           92.6           2.61           5.82   
+955         FF  2020-08-14           90.2           2.61           5.82   
+956         FF  2020-08-14           93.6           2.55           5.94   
+957         FF  2020-08-14           92.7           2.56           5.86   
+
+      player_name  batter  pitcher     events    description  ...  fld_score  \
+0    Akin, Keegan  595281   669211  field_out  hit_into_play  ...          2   
+1    Akin, Keegan  595281   669211        NaN  called_strike  ...          2   
+2    Akin, Keegan  595281   669211        NaN           ball  ...          2   
+3    Akin, Keegan  595281   669211        NaN           foul  ...          2   
+4    Akin, Keegan  595281   669211        NaN           ball  ...          2   
+..            ...     ...      ...        ...            ...  ...        ...   
+953  Akin, Keegan  671277   669211        NaN           ball  ...          1   
+954  Akin, Keegan  435062   669211  field_out  hit_into_play  ...          1   
+955  Akin, Keegan  435062   669211        NaN  called_strike  ...          1   
+956  Akin, Keegan  435062   669211        NaN           ball  ...          1   
+957  Akin, Keegan  435062   669211        NaN           ball  ...          1   
+
+     post_away_score  post_home_score  post_bat_score  post_fld_score  \
+0                  2                3               3               2   
+1                  2                3               3               2   
+2                  2                3               3               2   
+3                  2                3               3               2   
+4                  2                3               3               2   
+..               ...              ...             ...             ...   
+953                6                1               6               1   
+954                6                1               6               1   
+955                6                1               6               1   
+956                6                1               6               1   
+957                6                1               6               1   
+
+    if_fielding_alignment of_fielding_alignment spin_axis delta_home_win_exp  \
+0           Infield shift              Standard       143             -0.022   
+1                Standard              Standard       142              0.000   
+2                Standard              Standard       124              0.000   
+3                Standard              Standard       143              0.000   
+4                Standard              Standard       140              0.000   
+..                    ...                   ...       ...                ...   
+953              Standard              Standard       144              0.000   
+954              Standard              Standard       141              0.004   
+955              Standard              Standard       137              0.000   
+956              Standard              Standard       138              0.000   
+957              Standard              Standard       142              0.000   
+
+    delta_run_exp  
+0          -0.178  
+1          -0.074  
+2           0.040  
+3          -0.050  
+4           0.041  
+..            ...  
+953         0.027  
+954        -0.291  
+955        -0.059  
+956         0.060  
+957         0.041  
+
+[958 rows x 92 columns]"
+"   pitch_type   game_date  release_speed  release_pos_x  release_pos_z  \
+0          FA  2021-04-20           64.9          -2.31           5.78   
+1          FA  2021-04-20           64.8          -2.31           5.80   
+2          FA  2019-04-07           73.0          -1.73           5.62   
+3          FA  2019-04-07           70.6          -1.52           5.72   
+4          FA  2019-04-07           67.9          -1.45           5.84   
+5          FA  2019-04-07           74.4          -1.47           5.74   
+6          FA  2019-04-07           75.9          -1.69           5.64   
+7          FA  2019-04-07           74.0          -1.72           5.72   
+8          FA  2019-04-07           75.6          -1.55           5.71   
+9          FA  2019-04-07           75.4          -1.85           5.66   
+10         FA  2019-04-07           74.2          -1.49           5.73   
+11         FA  2019-04-07           72.4          -1.76           5.71   
+12         FA  2019-04-07           73.5          -1.55           5.88   
+13         FA  2019-04-07           69.4          -1.47           6.02   
+14         FA  2019-04-07           63.2          -1.67           6.20   
+15         FA  2019-04-07           65.2          -1.57           6.05   
+16         FA  2019-04-07           67.9          -1.72           5.94   
+17         FA  2019-04-07           67.4          -1.84           5.94   
+18         FA  2019-04-07           67.6          -2.02           5.77   
+19         FA  2019-04-07           67.3          -1.47           6.17   
+20         FA  2019-04-07           73.5          -1.76           5.79   
+21         FA  2019-04-07           70.6          -2.05           5.67   
+
+        player_name  batter  pitcher        events    description  ...  \
+0   Alberto, Hanser  664040   593643     field_out  hit_into_play  ...   
+1   Alberto, Hanser  664040   593643           NaN           ball  ...   
+2   Alberto, Hanser  650402   593643     field_out  hit_into_play  ...   
+3   Alberto, Hanser  650402   593643           NaN           foul  ...   
+4   Alberto, Hanser  596142   593643     field_out  hit_into_play  ...   
+5   Alberto, Hanser  596142   593643           NaN           ball  ...   
+6   Alberto, Hanser  572228   593643     force_out  hit_into_play  ...   
+7   Alberto, Hanser  572228   593643           NaN  called_strike  ...   
+8   Alberto, Hanser  643565   593643          walk           ball  ...   
+9   Alberto, Hanser  643565   593643           NaN           ball  ...   
+10  Alberto, Hanser  643565   593643           NaN           foul  ...   
+11  Alberto, Hanser  643565   593643           NaN  called_strike  ...   
+12  Alberto, Hanser  643565   593643           NaN           ball  ...   
+13  Alberto, Hanser  643565   593643           NaN           foul  ...   
+14  Alberto, Hanser  643565   593643           NaN           ball  ...   
+15  Alberto, Hanser  458731   593643          walk           ball  ...   
+16  Alberto, Hanser  458731   593643           NaN           ball  ...   
+17  Alberto, Hanser  458731   593643           NaN           ball  ...   
+18  Alberto, Hanser  458731   593643           NaN           ball  ...   
+19  Alberto, Hanser  519222   593643      home_run  hit_into_play  ...   
+20  Alberto, Hanser  570482   593643  hit_by_pitch   hit_by_pitch  ...   
+21  Alberto, Hanser  570482   593643           NaN           ball  ...   
+
+    fld_score  post_away_score  post_home_score  post_bat_score  \
+0           7               14                7              14   
+1           7               14                7              14   
+2           3               15                3              15   
+3           3               15                3              15   
+4           3               15                3              15   
+5           3               15                3              15   
+6           3               15                3              15   
+7           3               15                3              15   
+8           3               15                3              15   
+9           3               15                3              15   
+10          3               15                3              15   
+11          3               15                3              15   
+12          3               15                3              15   
+13          3               15                3              15   
+14          3               15                3              15   
+15          3               15                3              15   
+16          3               15                3              15   
+17          3               15                3              15   
+18          3               15                3              15   
+19          3               15                3              15   
+20          3               13                3              13   
+21          3               13                3              13   
+
+    post_fld_score if_fielding_alignment of_fielding_alignment spin_axis  \
+0                7         Infield shift              Standard       221   
+1                7         Infield shift              Standard       226   
+2                3         Infield shift              Standard       199   
+3                3         Infield shift              Standard       197   
+4                3         Infield shift              Standard       202   
+5                3         Infield shift              Standard       193   
+6                3         Infield shift              Standard       195   
+7                3              Standard              Standard       216   
+8                3              Standard              Standard       186   
+9                3              Standard              Standard       204   
+10               3              Standard             Strategic       194   
+11               3              Standard             Strategic       198   
+12               3              Standard             Strategic       198   
+13               3              Standard             Strategic       188   
+14               3              Standard             Strategic       216   
+15               3              Standard              Standard       210   
+16               3              Standard              Standard       188   
+17               3              Standard              Standard       194   
+18               3              Standard              Standard       202   
+19               3              Standard              Standard       190   
+20               3              Standard             Strategic       210   
+21               3              Standard             Strategic       203   
+
+   delta_home_win_exp delta_run_exp  
+0                   0        -0.351  
+1                   0         0.021  
+2                   0        -0.454  
+3                   0        -0.072  
+4                   0        -0.349  
+5                   0         0.051  
+6                   0        -0.520  
+7                   0        -0.098  
+8                   0         0.448  
+9                   0         0.183  
+10                  0         0.000  
+11                  0        -0.122  
+12                  0         0.091  
+13                  0        -0.085  
+14                  0         0.071  
+15                  0         0.171  
+16                  0         0.136  
+17                  0         0.068  
+18                  0         0.037  
+19                  0         1.573  
+20                  0         0.375  
+21                  0         0.037  
+
+[22 rows x 92 columns]"
+"    pitch_type   game_date  release_speed  release_pos_x  release_pos_z  \
+0           SL  2021-06-14           90.5          -3.04           6.41   
+1           CH  2021-06-14           88.8          -3.15           6.22   
+2           FF  2021-06-14           96.3          -2.72           6.56   
+3           SL  2021-06-14           90.9          -2.95           6.49   
+4           CH  2021-06-14           90.0          -2.89           6.35   
+..         ...         ...            ...            ...            ...   
+793         FF  2019-09-21           93.4          -1.51           6.67   
+794         FF  2019-09-21           92.4          -1.88           6.28   
+795         FF  2019-09-21           93.4          -1.47           6.69   
+796         FF  2019-09-21           92.3          -1.66           6.45   
+797         FF  2019-09-21           93.6          -1.60           6.56   
+
+       player_name  batter  pitcher     events    description  ...  fld_score  \
+0    Alcala, Jorge  641487   660896  field_out  hit_into_play  ...          3   
+1    Alcala, Jorge  641487   660896        NaN           ball  ...          3   
+2    Alcala, Jorge  641487   660896        NaN           foul  ...          3   
+3    Alcala, Jorge  641487   660896        NaN           foul  ...          3   
+4    Alcala, Jorge  641487   660896        NaN           ball  ...          3   
+..             ...     ...      ...        ...            ...  ...        ...   
+793  Alcala, Jorge  625510   660896        NaN           ball  ...          5   
+794  Alcala, Jorge  625510   660896        NaN           foul  ...          5   
+795  Alcala, Jorge  625510   660896        NaN           ball  ...          5   
+796  Alcala, Jorge  625510   660896        NaN           foul  ...          5   
+797  Alcala, Jorge  625510   660896        NaN           ball  ...          5   
+
+     post_away_score  post_home_score  post_bat_score  post_fld_score  \
+0                  3                3               3               3   
+1                  3                3               3               3   
+2                  3                3               3               3   
+3                  3                3               3               3   
+4                  3                3               3               3   
+..               ...              ...             ...             ...   
+793               10                5              10               5   
+794               10                5              10               5   
+795               10                5              10               5   
+796               10                5              10               5   
+797               10                5              10               5   
+
+    if_fielding_alignment of_fielding_alignment spin_axis delta_home_win_exp  \
+0               Strategic             Strategic     193.0             -0.036   
+1               Strategic             Strategic     235.0              0.000   
+2               Strategic             Strategic     226.0              0.000   
+3               Strategic             Strategic     211.0              0.000   
+4               Strategic             Strategic     231.0              0.000   
+..                    ...                   ...       ...                ...   
+793              Standard              Standard     207.0              0.000   
+794              Standard              Standard     220.0              0.000   
+795              Standard              Standard     203.0              0.000   
+796              Standard              Standard     207.0              0.000   
+797              Standard              Standard     212.0              0.000   
+
+    delta_run_exp  
+0          -0.253  
+1           0.075  
+2           0.000  
+3           0.000  
+4           0.030  
+..            ...  
+793         0.221  
+794        -0.180  
+795         0.141  
+796        -0.139  
+797         0.099  
+
+[798 rows x 92 columns]"
+"     pitch_type   game_date  release_speed  release_pos_x  release_pos_z  \
+0            SL  2021-06-11           89.3          -2.46           5.85   
+1            FF  2021-06-11           96.8          -2.50           5.87   
+2            FF  2021-06-11           96.7          -2.46           5.95   
+3            SL  2021-06-11           89.1          -2.54           5.91   
+4            SI  2021-06-11           96.6          -2.30           5.78   
+...         ...         ...            ...            ...            ...   
+5789         FF  2018-06-29           95.6          -2.89           5.82   
+5790         FF  2018-06-29           94.7          -2.93           5.79   
+5791         FF  2018-06-29           95.7          -2.86           5.78   
+5792         FF  2018-06-29           94.8          -2.91           5.82   
+5793         FF  2018-06-29           95.0          -2.92           5.82   
+
+           player_name  batter  pitcher     events    description  ...  \
+0     Alcantara, Sandy  661388   645261  field_out  hit_into_play  ...   
+1     Alcantara, Sandy  501659   645261  field_out  hit_into_play  ...   
+2     Alcantara, Sandy  501659   645261        NaN           ball  ...   
+3     Alcantara, Sandy  501659   645261        NaN           foul  ...   
+4     Alcantara, Sandy  621020   645261     double  hit_into_play  ...   
+...                ...     ...      ...        ...            ...  ...   
+5789  Alcantara, Sandy  607043   645261        NaN           ball  ...   
+5790  Alcantara, Sandy  607043   645261        NaN           foul  ...   
+5791  Alcantara, Sandy  607043   645261        NaN  called_strike  ...   
+5792  Alcantara, Sandy  607043   645261        NaN           ball  ...   
+5793  Alcantara, Sandy  607043   645261        NaN           ball  ...   
+
+      fld_score  post_away_score  post_home_score  post_bat_score  \
+0             4                2                4               2   
+1             4                2                4               2   
+2             4                2                4               2   
+3             4                2                4               2   
+4             4                2                4               2   
+...         ...              ...              ...             ...   
+5789          0                0                0               0   
+5790          0                0                0               0   
+5791          0                0                0               0   
+5792          0                0                0               0   
+5793          0                0                0               0   
+
+      post_fld_score if_fielding_alignment of_fielding_alignment spin_axis  \
+0                  4              Standard              Standard     206.0   
+1                  4              Standard             Strategic     233.0   
+2                  4              Standard             Strategic     231.0   
+3                  4              Standard             Strategic     222.0   
+4                  4              Standard              Standard     226.0   
+...              ...                   ...                   ...       ...   
+5789               0              Standard              Standard     214.0   
+5790               0              Standard              Standard     217.0   
+5791               0              Standard              Standard     212.0   
+5792               0              Standard              Standard     208.0   
+5793               0              Standard              Standard     212.0   
+
+     delta_home_win_exp delta_run_exp  
+0                 0.040        -0.329  
+1                 0.047        -0.318  
+2                 0.000         0.041  
+3                 0.000        -0.045  
+4                -0.054         0.340  
+...                 ...           ...  
+5789              0.000         0.093  
+5790              0.000        -0.064  
+5791              0.000        -0.057  
+5792              0.000         0.064  
+5793              0.000         0.036  
+
+[5794 rows x 92 columns]"
