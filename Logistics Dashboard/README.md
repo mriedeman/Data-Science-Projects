@@ -10,7 +10,8 @@ Sensitive information including financial data and the Power BI file itself was 
 - Microsoft SQL Server
 
 ## Purpose
-#### The logistics dashboard was created to better manage the operations fleet among the 140+ locations. Previously, logistics decisions were made upon static snapshots generated from outdated software on a daily basis. The main issue with this was same-day vehicle reservations were not reflected in the snapshots until the next day; this caused overbooking. The company decided to migrate the data and utilize Microsoft SQL Server and Power BI to generate fleet data in real time.
+
+The logistics dashboard was created to better manage the operations fleet among the 140+ locations. Previously, logistics decisions were made upon static snapshots generated from outdated software on a daily basis. The main issue with this was same-day vehicle reservations were not reflected in the snapshots until the next day; this caused overbooking. The company decided to migrate the data and utilize Microsoft SQL Server and Power BI to generate fleet data in real time.
 
 
 
